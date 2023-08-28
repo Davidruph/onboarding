@@ -317,3 +317,98 @@
   font-weight: 400;
   line-height: 20px;
 }
+#message {
+  color: #a4aab2;
+  font-size: 15px;
+}
+#message_container {
+  display: none;
+  border: 1px solid grey;
+  height: 50px;
+  border-radius: 0.375rem;
+}
+
+/* login css */
+
+.login-header {
+  color: #333;
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+  letter-spacing: -0.72px;
+}
+.login-title {
+  color: #545454;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.login-input {
+  padding: 10px 14px;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 100%;
+  max-width: 360px;
+  height: 44px;
+}
+.login-input:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #e76d00;
+  outline-width: 0;
+}
+.login-forget-password {
+  color: #e76d00;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  text-align: right;
+}
+.f-password {
+  width: 100%;
+  max-width: 360px;
+}
+.btn-login-submit,
+.btn-login-submit:hover {
+  border: 1px solid #e76d00;
+  background: #e76d00;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  padding: 10px 18px;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  width: 100%;
+  max-width: 360px;
+}
+.sign-up-text {
+  color: #475467;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.spotlight,
+.spotlight:hover {
+  color: #e76d00;
+}
+.box {
+  width: 100%;
+  max-width: 360px;
+}
